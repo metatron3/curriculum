@@ -1,0 +1,92 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px;  
+} 
+
+section#hero{  
+     background-color: rgb(72, 13, 128);
+     font-style: italic;
+     color: aliceblue;
+     display: flex;
+     justify-content: center;
+     }
+
+  section#hero h1 {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+    
+  section ul li{
+    font-size: 1rem;
+    font-style: normal;
+    display: flex;
+    justify-content: right;
+  }
+
+  
+    section#cargos h2 {
+    border: 3px solid rgb(72, 13, 128);
+    display: flex;
+    justify-content: center;
+   font-style: italic;
+    color:rgb(72, 13, 128)
+  }
+
+  section#cargos h3 {
+    color:rgb(72, 13, 128);
+    font-style: normal;
+  }
+
+  section#cargos h4 {
+    color:rgb(72, 13, 128);
+    font-style: normal;
+  }
+   section#experiencia h2 {
+      
+    border: 3px solid rgb(72, 13, 128);
+    display: flex;
+    justify-content: center;
+   font-style: italic;
+    color:rgb(72, 13, 128)
+  }
+  .lista_de_trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .detalles{
+    border: 7px solid rgb(72, 13, 128);
+    width: 300px;
+    margin: 20px;
+ }
+ .detalles img{
+    width: 100%;
+ }
+ section#contacto{
+    background-color: blueviolet;
+
+ }
+ section#contacto h2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color:rgb(252, 250, 253)
+ }
+ form div{
+     font-size: large;
+     display: flex;
+     justify-content: center;
+     font-style: normal;
+     color:rgb(246, 243, 248)
+     
+}
+
+form button{
+     border: 3px solid rgb(72, 13, 128);
+     display: flex;
+     justify-content: center;
+     font-size: large;
+}
