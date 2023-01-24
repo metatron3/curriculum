@@ -30,10 +30,6 @@ document.getElementById('botton_ocultar').addEventListener('click', function() {
 });
 
 
-document.getElementById('botton_clic').addEventListener('onclick', function() {
-    document.getElementById('demo').innerHTML = "que hora es"
-});
-
 
 const collection = document.getElementsByClassName("prueba");
 
